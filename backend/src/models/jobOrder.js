@@ -1,11 +1,11 @@
 import mongoose from "mongoose";
 
 const jobSchema = new mongoose.Schema({
-    tittle:{
+    title:{
             type:String,
             required:true
         },
-    description:{
+        description:{
             type:String,
             required:true        
     },
